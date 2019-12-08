@@ -30,7 +30,7 @@ while a[op_pos].to_s[-2..-1] != "99"
         a[a[op_pos + 3]] = first * second
         op_pos += 4
     elsif op == "03"
-        a[a[op_pos + 3]] = input
+        a[a[op_pos + 1]] = input
         op_pos += 2
     elsif op == "04"
         p a[a[op_pos + 1]]
